@@ -16,6 +16,7 @@ const MyEnrollment = () => {
           </thead>
 
 <div></div>
+<div></div>
         </table>
     </div>
     </>
