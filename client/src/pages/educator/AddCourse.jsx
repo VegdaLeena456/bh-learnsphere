@@ -1,9 +1,11 @@
 import React from 'react'
+import uniqid from 'uniqid'
+import quill from 'quill' 
 
 const AddCourse = () => {
   return (
     <div>
-        <h1>Add Course</h1>
+        
     </div>
   )
 }
