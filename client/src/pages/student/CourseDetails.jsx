@@ -32,7 +32,7 @@ const CourseDetails = () => {
 
   return courseData ? (
     <>
-      <div className="flex md:flex-row flex-col-reverse gap-10 relative items-start justify-between md:px-36 px-8 md:pt-30 pt-20 text-left">
+      <div className="flex md:flex-row flex-col-reverse gap-10 relative items-start justify-between md:px-36 px-8 md:pt-30  pt-20 text-left">
         <div className="absolute top-0 left-0 w-full h-section-height -z-1 bg-gradient-to-b from-cyan-100/70"></div>
 
         {/* left column */}
@@ -41,7 +41,7 @@ const CourseDetails = () => {
             {courseData.courseTitle}
           </h1>
           <p
-            className="pt-4 md:text-base text-sm"
+            className="pt-4 md:text-base text-sm text-gray-500"
             dangerouslySetInnerHTML={{
               __html: courseData.courseDescription.slice(0, 200),
             }}
@@ -234,7 +234,7 @@ const CourseDetails = () => {
 
                 <div className="pt-6">
                   <p className="md:text-xl text-lg font-medium text-gray-800 ">What's in the Course?</p>
-                  <ul className="ml-4 pt-2 text-sm md:text-default list-disc text-gray-500">
+                  <ul className="ml-4 pt-2 text-sm md:text-default list-disc text-gray-600">
                     <li>Lifetime access with free updates.</li>
                     <li>Step-by-step, hands-on project guidance.</li>
                     <li>Downloadable resources and source code.</li>

@@ -7,6 +7,14 @@
 *{
   font-family: Outfit;
 }
+ 
+body {
+  font-family: 'Outfit', sans-serif;
+  background: url('/assets/background.svg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 
 @layer base {
 html{

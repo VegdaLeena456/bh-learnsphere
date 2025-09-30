@@ -27,6 +27,9 @@ export default {
       boxShadow : {
         'custom-card' : '0 4px 15px 2px rgba(0,0,0,0.1)'
       },
+       backgroundImage: {
+        'hero-pattern': "url('./src/assets/background .svg')",
+      }
 
     },
   },

@@ -12,13 +12,16 @@ import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
 import StudentEnrolled from './pages/educator/StudentEnroll'
 import Navbar from './components/student/Navbar'
+import "quill/dist/quill.snow.css";
+import { assets } from './assets/assets'
 
 const App = () => {
   const isEducatorRoutes = useMatch('/educator/*')
 
 
   return (
-    <div className='text-default min-h-screen bg-white'>
+    <div className='text-default min-h-screen w-full  bg-cover bg-center bg-no-repeat absolute'   style={{ backgroundImage: `url(${assets.background})`}}>
+      
       {!isEducatorRoutes &&  <Navbar />}
      
       <Routes>

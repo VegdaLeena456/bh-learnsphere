@@ -6,11 +6,12 @@ import TestimonialSection from '../../components/student/TestimonialSection'
 import CallToAction from '../../components/student/CallToAction'
 import Footer from '../../components/student/Footer'
 import CourseDetails from './CourseDetails'
+import { assets } from '../../assets/assets'
 
 const Home = () => {
   return (
     <div>
-      <div className='flex flex-col items-center space-y-7 text-center'>
+      <div className='flex flex-col items-center space-y-7 text-center'  >
         <Hero />
         <Companies />
         <CoursesSection />
