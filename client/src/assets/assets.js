@@ -3,6 +3,7 @@ import logo_dark from './logo_dark.svg'
 import background from './bg.svg'
 import search_icon from './search_icon.svg'
 import cross_icon from './cross_icon.svg'
+import cross_icon_black from './cross_icon_black.svg'
 import upload_area from './upload_area.svg'
 import sketch from './sktech.svg'
 import microsoft_logo from './microsoft_logo.svg'
@@ -67,6 +68,7 @@ export const assets = {
     arrow_icon,
     dropdown_icon,
     cross_icon,
+    cross_icon_black,
     upload_area,
     logo_dark,
     down_arrow_icon,
