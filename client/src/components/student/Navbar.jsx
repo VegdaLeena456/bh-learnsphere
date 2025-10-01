@@ -15,8 +15,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex items-center justify-between px-4 sticky top-0 z-10 backdrop-blur-sm sm:px-10 md:px-14 lg:px-36 border-b border-gray-300 py-8 sm:py-12 ${
-        isCourseListPage ? "bg-white text-gray-800" : "bg-purple-200/20 text-gray-200"
+      className={ `flex items-center justify-between px-4 sticky top-0 z-10 backdrop-blur-sm sm:px-10 md:px-14 lg:px-36 border-b border-gray-300 py-6 sm:py-12 ${
+        isCourseListPage ? "bg-white text-gray-800" : "bg-blue-200/20 text-gray-200"
       } `}
     >
       <img onClick={()=> navigate('/')}
