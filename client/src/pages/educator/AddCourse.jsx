@@ -149,6 +149,8 @@ const AddCourse = () => {
                 <span className='text-gray-500'>{chapter.chapterContent.length} Lectures</span>
                 <img src={assets.cross_icon_black} onClick={()=> handleChapter('remove', chapter.chapterId)}  alt=""  className='cursor-pointer'/>
               </div>
+
+              
               {!chapter.collapsed && (
                 <div className='p-4'>
                   {chapter.chapterContent.map((lecture, lectureIndex)=>(
