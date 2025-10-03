@@ -41,7 +41,7 @@ const CourseDetails = () => {
             {courseData.courseTitle}
           </h1>
           <p
-            className="pt-4 md:text-base text-sm text-gray-500"
+            className="pt-4 md:text-base text-sm text-gray-700"
             dangerouslySetInnerHTML={{
               __html: courseData.courseDescription.slice(0, 200),
             }}
@@ -104,7 +104,7 @@ const CourseDetails = () => {
                         {chapter.chapterTitle}
                       </p>
                     </div>
-                    <p className="text-sm md:text-default">
+                    <p className="text-sm md:text-default text-gray-700">
                       {chapter.chapterContent.length} lecture -{" "}
                       {calculateChapterTime(chapter)}{" "}
                     </p>
@@ -157,7 +157,7 @@ const CourseDetails = () => {
                 Course Description
               </h3>
               <p
-                className="pt-3 rich-text"
+                className="pt-3 rich-text "
                 dangerouslySetInnerHTML={{
                   __html: courseData.courseDescription,
                 }}
